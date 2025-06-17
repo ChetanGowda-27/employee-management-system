@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webmanifest-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_4_0.xsd"
+            version="4.0">
+    <filter>
+        <filter-name>HttpMethodFilter</filter-name>
+        <filter-class>com.chetangowda.util.HttpMethodFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>HttpMethodFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+</webmanifest-app>
